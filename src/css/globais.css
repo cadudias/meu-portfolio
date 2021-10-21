@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap");
+
+html {
+  font-size: 62.5%;
+  color: var(--cor-branca);
+}
+
+body {
+  background-color: var(--cor-fundo-escuro);
+  font-family: var(--fonte-body);
+  font-size: var(--fonte-normal);
+}
+
+.outer-shadow {
+  box-shadow: 3px 3px #222327, -3px -3px 3px #454545;
+}
+
+.section {
+  padding: 5%; 
+}
+
+.section-title {
+  color: var(--cor-branca);
+  font-size: var(--fonte-extra-grande);
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.redes-sociais a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  font-size: 1.6rem;
+  text-align: center;
+  color: var(--cor-branca);
+  margin: 0 4px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.redes-sociais a i {
+  line-height: 40px;
+}
+
+.redes-sociais a:hover {
+  color: var(--cor-primaria);
+}
+
+/* TODO - mostrar que sem estilizar o after nao funciona o hover redondo */
+.redes-sociais a:after {
+  border-radius: 50%;
+}
