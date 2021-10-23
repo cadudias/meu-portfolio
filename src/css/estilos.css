@@ -201,7 +201,10 @@
     text-align: center;
     background-color: var(--cor-fundo-escuro);
     border-top: 1px solid var(--cor-secundaria);
-    padding: 12rem;
+}
+
+.footer .container {
+    padding: 5rem 0;
 }
 
 .footer h2 {
