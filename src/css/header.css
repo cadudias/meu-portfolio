@@ -1,23 +1,15 @@
- .header {
-    /* grid-area: header; */
-}
-
-.header .header-container {
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 9%;
+.header {
+    padding: 30px 15px;
 }
 
 .header .logo {
-    font-size: 3rem;
-    font-weight: 500;
+    font-family: var(--fonte-secundaria);
+    font-size: var(--fonte-extra-grande);
     color: var(--cor-branca);
     border: 2px solid var(--cor-branca);
     border-radius: 50%;
-    width: 60px;
-    height: 60px;
+    width: 65px;
+    height: 65px;
     line-height: 55px;
     text-align: center;
     text-decoration: underline;
@@ -34,13 +26,15 @@
 }
 
 .header nav li a {
+    text-transform: capitalize;
     color: var(--cor-branca);
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 500;
     padding: 10px 20px;
     transition: 0.2s;
     border-radius: 50px;
     letter-spacing: 1px;
+    user-select: none;
 }
 
 .header nav ul li a:hover{
@@ -58,6 +52,7 @@
 .header nav label{
     display: flex;
     flex-direction: column;
+    cursor: pointer;
 }
   
 .header .hamburguer {
@@ -69,7 +64,6 @@
     top: 29px;
     left: 15px;
     transition: 0.5s ease-in-out;
-    cursor: pointer;
 }
 
 .header .hamburguer:before,
@@ -109,7 +103,7 @@
     bottom: 0;
 }
 
-@media(max-width: 900px){
+@media(max-width: 900px) {
     .header .menu {
         display: block; 
     }
@@ -121,15 +115,15 @@
 
     .header nav{
         position: absolute;
-        top: 15px;
+        top: 30px;
         right: 20px;  
         z-index: 1;
     }
 
    .header nav ul{
-        width: 200px;
+        width: 300px;
         display: none;        
-        background-color: var(--cor-fundo);         
+        background-color: var(--cor-fundo-escuro);         
         padding: 20px;       
     }
     

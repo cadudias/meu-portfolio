@@ -1,21 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ricardo Hofstetter Dias - Desenvolvedor Frontend</title>
 
-    <link rel="stylesheet" href="/src/css/font-awesome.css" />
-    <link rel="stylesheet" href="/src/css/variaveis.css" />
-    <link rel="stylesheet" href="/src/css/reset.css" />
-    <link rel="stylesheet" href="/src/css/header.css" />
-    <link rel="stylesheet" href="/src/css/globais.css" />
-    <link rel="stylesheet" href="/src/css/estilos.css" />
-  </head>
-  <body>
-    <header class="header">
-      <div class="header-container">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricardo Hofstetter Dias - Desenvolvedor Frontend</title>
+
+  <link rel="stylesheet" href="/src/css/font-awesome.css" />
+  <link rel="stylesheet" href="/src/css/variaveis.css" />
+  <link rel="stylesheet" href="/src/css/reset.css" />
+  <link rel="stylesheet" href="/src/css/header.css" />
+  <link rel="stylesheet" href="/src/css/globais.css" />
+  <link rel="stylesheet" href="/src/css/estilos.css" />
+  <link rel="stylesheet" href="/src/css/responsividade.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="row justify-content-between alinhar-itens-no-centro">
         <a href="/">
           <h1 class="logo">RD</h1>
         </a>
@@ -34,79 +39,222 @@
           </ul>
         </nav>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <section class="sobre-mim" id="sobre-mim">
-      <div class="informacoes">
-        <h2>Olá 🖖,</h2>
-        <h1>
-          Sou o Ricardo Dias<br />
-          <span class="cargo">Desenvolvedor Frontend</span>
-        </h1>
+  <section class="home section">
+    <div class="container">
+      <div class="row full-screen alinhar-itens-no-centro">
+        <div class="texto-home">
+          <p>Olá 🖖,</p>
+          <h1>Sou o Ricardo Dias</h1>
+          <h2>Desenvolvedor Frontend</h2>
 
-        <div class="redes-sociais">
-          <a href="#" class="outer-shadow"
-            ><i class="fab fa-facebook-square"></i
-          ></a>
-          <a href="#" class="outer-shadow"><i class="fab fa-twitter"></i></a>
-          <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
-          <a href="#" class="outer-shadow"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
+          <!-- social links inicio -->
+          <!-- download https://fontawesome.com/v5.15/how-to-use/on-the-web/setup/hosting-font-awesome-yourself -->
+          <div class="redes-sociais">
+            <a href="#" class="outer-shadow"><i class="fab fa-facebook-square"></i></a>
+            <a href="#" class="outer-shadow"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <!-- social links fim -->
+        </div>
+
+        <div class="img-home">
+          <div class="img-box inner-shadow">
+            <img class="outer-shadow" src="/src/imagens/foto-perfil.png" alt="foto do perfil do Ricardo" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="sobre-mim section" id="sobre-mim">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Sobre mim</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="imagem-sobre-mim">
+          <div class="img-box inner-shadow">
+            <img src="/src/imagens/foto-perfil.png" alt="foto sobre mim" class="outer-shadow" />
+          </div>
+        </div>
+        <div class="informacoes-sobre-mim">
+          <p>
+            <strong>Olá! Me chamo Ricardo Dias e sou um desenvolvedor frontend em
+              formação</strong>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Quisquam optio molestias, vero accusantium ducimus eius
+            reiciendis iste sapiente error quam totam sit ipsum amet cum
+            excepturi laboriosam doloremque. Quam, eaque!
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime
+            quo consequuntur dicta suscipit beatae sed alias esse nemo odit?
+            Voluptas, ipsum magnam error illo est explicabo beatae quia
+            veniam facere?
+          </p>
+
+          <div class="botoes">
+            <a target="_blank" href="./files/cv.pdf" class="botao outer-shadow">Veja meu CV</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="habilidades" id="habilidades">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Habilidades</h2>
         </div>
       </div>
 
-      <div class="container-imagem inner-shadow">
-        <img
-          class="outer-shadow"
-          src="/src/imagens/foto-perfil.png"
-          alt="foto do perfil do Ricardo"
-        />
+      <div class="container-habilidades">
+        <div class="informacoes default mostrar">
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, sed! Minus perferendis at quam eveniet
+            libero aperiam aliquid commodi! Cumque eum, earum aliquid natus cupiditate optio voluptate nam non culpa?
+          </p>
+          <p class="highligth">Clique nos ícones para descobrir os meus conhecimentos</p>
+        </div>
+
+        <div class="informacoes javascript">
+          <h3>JavaScript</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+        </div>
+
+        <div class="informacoes html">
+          <h3>HTML5</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+        </div>
+
+        <div class="informacoes css">
+          <h3>CSS3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+        </div>
+
+        <div class="informacoes github">
+          <h3>GitHub</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+        </div>
+
+        <div class="informacoes git">
+          <h3>Git</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt placeat ipsam suscipit consequuntur ex
+            reiciendis alias accusamus quo consectetur. Consequatur sequi ab id expedita facilis cupiditate quia atque
+            dignissimos possimus!</p>
+        </div>
+
+        <div class="logos">
+          <div class="logo">
+            <i class="devicon devicon-javascript-plain" id="javascript"></i>
+          </div>
+          <div class="logo">
+            <i class="devicon devicon-html5-plain-wordmark" id="html"></i>
+          </div>
+          <div class="logo">
+            <i class="devicon devicon-css3-plain-wordmark" id="css"></i>
+          </div>
+          <div class="logo">
+            <i class="devicon devicon-github-original" id="github"></i>
+          </div>
+          <div class="logo">
+            <i class="devicon devicon-git-plain" id="git"></i>
+          </div>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="section habilidades" id="habilidades">
-      <h2 class="section-title">Habilidades</h2>
-    </section>
-
-    <section class="section projetos" id="projetos">
-      <h2 class="section-title">Meus projetos</h2>
+  <section class="projetos" id="projetos">
+    <div class="container">
+      <div class="row">
+        <div class="section-title">
+          <h2>Meus projetos</h2>
+        </div>
+      </div>
 
       <div class="container-projetos">
         <div class="projeto outer-shadow">
           <a href="#">
-            <img src="https://via.placeholder.com/560" alt="" />
-            <h3>Projeto 1</h3>
+            <img src="https://via.placeholder.com/670X660" alt="" />
+
+            <div class="informacoes-projeto">
+              <h3>Projeto 1</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, totam ex? Ex maxime explicabo dolorum voluptas aliquid tempore sapiente. Eum </p>
+            </div>
           </a>
         </div>
 
         <div class="projeto outer-shadow">
           <a href="#">
-            <img src="https://via.placeholder.com/480X300" alt="" />
-            <h3>Projeto 2</h3>
+            <img src="https://via.placeholder.com/450X275" alt="" />
+            <div class="informacoes-projeto">
+              <h3>Projeto 2</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, totam ex? Ex maxime  </p>
+            </div>
           </a>
         </div>
 
         <div class="projeto outer-shadow">
           <a href="#">
-            <img src="https://via.placeholder.com/480X300" alt="" />
-            <h3>Projeto 3</h3>
+            <img src="https://via.placeholder.com/450X275" alt="" />
+            <div class="informacoes-projeto">
+              <h3>Projeto 3</h3>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis, totam ex? Ex maxime explic</p>
+            </div>
           </a>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="section footer">
-      <h2>Ricardo Dias</h2>
+  <footer class="footer">
+    <h2>Ricardo Dias</h2>
 
-      <div class="redes-sociais">
-        <a href="#" class="outer-shadow"
-          ><i class="fab fa-facebook-square"></i
-        ></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-twitter"></i></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
-        <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
-      </div>
-    </footer>
-  </body>
+    <div class="redes-sociais">
+      <a href="#" class="outer-shadow"><i class="fab fa-facebook-square"></i></a>
+      <a href="#" class="outer-shadow"><i class="fab fa-twitter"></i></a>
+      <a href="#" class="outer-shadow"><i class="fab fa-instagram"></i></a>
+      <a href="#" class="outer-shadow"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+  </footer>
+
+  <script src="/src/scripts/logos.js"></script>
+</body>
+
 </html>
