@@ -92,6 +92,7 @@
 .habilidades .container-habilidades {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    min-height: 330px;
 }
 
 .habilidades .container-habilidades .informacoes {
