@@ -34,13 +34,7 @@
     }
 
     .habilidades .container-habilidades {
-        grid-template-columns: 1fr;
         padding: 0 var(--mobile-padding);
-        text-align: center;
-    }
-
-    .habilidades .container-habilidades .logos {
-        gap: 30px;
     }
 
     .projetos .container-projetos {
