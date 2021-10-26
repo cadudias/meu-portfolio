@@ -87,14 +87,20 @@
 
 /* HABILIDADES */
 .habilidades {
-    padding: 10rem 0 10rem;
+    padding: 10rem 0 10rem;    
 }
 
-.habilidades .container-habilidades {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    grid-gap: 50px;
+.habilidades .container-habilidades {    
     text-align: center;    
+    display: flex;
+    justify-content: center;    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.habilidades .container-habilidades .informacoes{
+    max-width: 350px;
+    padding: 20px;
 }
 
 .habilidades .container-habilidades .informacoes h3 {
