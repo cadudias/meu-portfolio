@@ -48,12 +48,7 @@
 }
 
 /* SOBRE MIM */
-.sobre-mim {
-    padding: 12rem 0 12rem;
-}
-
-.sobre-mim .imagem-sobre-mim {
-    flex: 0 0 40%;
+.sobre-mim .imagem-sobre-mim {    
     max-width: 40%;
     padding: 0 15px;
 }
@@ -69,10 +64,10 @@
     border-radius: 5px;
 }
 
-.sobre-mim .informacoes-sobre-mim {
-    flex: 0 0 60%;
+.sobre-mim .informacoes-sobre-mim {    
     max-width: 60%;
-    padding: 0 25px;
+    padding: 0 25px;   
+    align-self: center; 
 }
 
 .sobre-mim .informacoes-sobre-mim .botoes {
@@ -86,10 +81,6 @@
 }
 
 /* HABILIDADES */
-.habilidades {
-    padding: 10rem 0 10rem;    
-}
-
 .habilidades .container-habilidades {    
     text-align: center;    
     display: flex;
@@ -133,11 +124,6 @@
 }
 
 /* PROJETOS */
-.projetos {
-    padding-top: 5rem;
-    padding-bottom: 10rem;
-}
-
 .projetos .container-projetos {
     display: grid;
     grid-template-columns: 1fr 450px;
@@ -188,6 +174,7 @@
 
 /* FOOTER */
 .footer {
+    margin-top: 7rem;
     text-align: center;
     background-color: var(--cor-fundo-escuro);
 }
