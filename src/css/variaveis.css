@@ -1,19 +1,8 @@
 :root {
-    /* --cor-primaria: #43bd8e;
-    --cor-secundaria: #467b8d;
     --cor-fundo-escuro: #040203;
-    --cor-fundo-cinza-escuro: #353535;
-    --cor-fundo-cinza-claro: #282828;
-    --cor-branca: #fff; */
-
     --cor-primaria: #43bd8e;
-    /* --cor-secundaria: #467b8d; */
-    /* --cor-fundo-escuro: #040203; */
-    /* --cor-primaria: #FD6C22; laranja */
     --cor-fundo-cinza-escuro: #353535;
-    /* --cor-primaria: #6FCF97; */
     --cor-secundaria: #FD6C22;
-    /* --cor-fundo-cinza-escuro: #1C1E26; */
     --cor-fundo-cinza-claro: #282828;
     --cor-branca: #fff;
   }
