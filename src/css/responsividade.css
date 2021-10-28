@@ -41,7 +41,6 @@
     }
 
     .projetos .container-projetos {
-        grid-template-columns: 1fr 1fr 1fr;
         padding: 0 var(--mobile-padding);
     }
 }
@@ -51,14 +50,9 @@
         max-width: 100%;                   
     }
 
-    .projetos .container-projetos {
-        grid-template-columns: 1fr 1fr;
-        padding: 0 var(--mobile-padding);
-    }
+    
 }
 
 @media(max-width:500px){
-    .projetos .container-projetos {
-        grid-template-columns: 1fr;
-    }
+    
 }
