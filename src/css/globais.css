@@ -16,7 +16,7 @@ html {
 }
 
 body {
-  background-color: var(--cor-fundo-cinza-escuro);
+  background-color: var(--cor-fundo-cinza-claro);
   font-family: var(--fonte-primaria);
   font-size: var(--fonte-normal);
 }
@@ -37,10 +37,6 @@ body {
 .row {
   display: flex;
   flex-wrap: wrap;
-}
-
-.full-screen {
-  min-height: 100vh;
 }
 
 .justify-content-between {
@@ -74,6 +70,9 @@ body {
   margin: 0 4px;
   border-radius: 50%;
   transition: all 0.3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  -webkit-transition: all .3s ease;
 }
 
 .redes-sociais a i {
@@ -82,11 +81,6 @@ body {
 
 .redes-sociais a:hover {
   color: var(--cor-primaria);
-}
-
-/* TODO - mostrar que sem estilizar o after nao funciona o hover redondo */
-.redes-sociais a:after {
-  border-radius: 50%;
 }
 
 .botao {
