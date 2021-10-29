@@ -31,12 +31,14 @@
     font-size: var(--fonte-extra-grande);
     font-weight: 500;
     margin-bottom: 20px;
+    color: var(--cor-primaria);      
 }
 
 .habilidades .container-habilidades .informacoes p {
     font-size: 1.8rem;
+    font-family: var(--fonte-secundaria);
 }
 
 .habilidades .container-habilidades .informacoes .logo i {
-    font-size: 8rem;        
+    font-size: 8rem;
 }
