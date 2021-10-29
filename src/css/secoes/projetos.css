@@ -38,6 +38,12 @@
     border-top-right-radius: 4px;
 }
 
+.projetos .container-projetos .projeto .informacoes-projeto p:nth-child(2) {
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 1.4rem;
+}
+
 .projetos .container-projetos .projeto h3 {
     font-size: 2rem;
     font-weight: 500;
