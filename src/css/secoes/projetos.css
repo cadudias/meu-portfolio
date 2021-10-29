@@ -6,6 +6,12 @@
     grid-gap: 20px;       
 }
 
+@media(max-width: 1280px) { 
+    .projetos .container-projetos {
+        padding: 0 var(--mobile-padding);
+    }
+}
+
 .projetos .container-projetos .projeto {
     border-radius: 5px;
     transition: all 0.3s ease;
