@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background-color: var(--cor-fundo-cinza-escuro);
+  background-color: var(--cor-fundo-cinza-claro);
   font-family: var(--fonte-primaria);
   font-size: var(--fonte-normal);
 }
@@ -72,11 +72,6 @@ body {
 
 .redes-sociais a:hover {
   color: var(--cor-primaria);
-}
-
-/* TODO - mostrar que sem estilizar o after nao funciona o hover redondo */
-.redes-sociais a:after {
-  border-radius: 50%;
 }
 
 .botao {
